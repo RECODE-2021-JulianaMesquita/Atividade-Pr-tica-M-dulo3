@@ -50,9 +50,8 @@ namespace JuhMesquitaViagens.Controllers
         }
 
         public IActionResult Login()
-        {
-            var users = _context.User.ToList();
-            return View(users);
+        {           
+            return View();
         }
 
         public IActionResult Recovery()
