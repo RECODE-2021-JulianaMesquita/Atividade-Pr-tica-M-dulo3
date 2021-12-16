@@ -6,19 +6,23 @@ namespace JuhMesquitaViagens.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly Context _context;      
+
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, Context context)
         {
             _logger = logger;
+            _context = context;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var destinies = _context.Destiny.ToList();
+            return View(destinies);
         }
 
-        public IActionResult Privacy()
+        public IActionResult Contact()
         {
             return View();
         }
