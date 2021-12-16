@@ -49,6 +49,12 @@ namespace JuhMesquitaViagens.Controllers
             return View();
         }
 
+        public IActionResult Destiny()
+        {
+            var destinies = _context.Destiny.ToList();
+            return View(destinies);
+        }
+
         // POST: Destinies/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
