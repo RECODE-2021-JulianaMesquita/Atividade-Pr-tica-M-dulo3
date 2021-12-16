@@ -1,0 +1,89 @@
+[33mcommit f9d4235880b25475a62fb042a263ed98040381f9[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: juliana Mesquita <julianamariasousamesquita@id.uff.br>
+Date:   Thu Dec 16 00:53:24 2021 -0300
+
+    add views promotions in Destinies
+
+[33mcommit 28e03ee628b0df873ff3991c357816b3f07fcb96[m
+Author: juliana Mesquita <julianamariasousamesquita@id.uff.br>
+Date:   Thu Dec 16 00:47:45 2021 -0300
+
+    alter menu and footer
+
+[33mcommit e06f38cd513a173990ef86cf02b6975e37ce8ef1[m
+Author: juliana Mesquita <julianamariasousamesquita@id.uff.br>
+Date:   Thu Dec 16 00:45:37 2021 -0300
+
+    alter index home and add contact
+
+[33mcommit 6b423b2713bfa254fa9a21cf5f9948f8c3a8301e[m
+Author: juliana Mesquita <julianamariasousamesquita@id.uff.br>
+Date:   Thu Dec 16 00:38:12 2021 -0300
+
+    add images favicon and style
+
+[33mcommit 767a4ea1b44e23ce578afc0a9e2d168c12574114[m
+Author: juliana Mesquita <julianamariasousamesquita@id.uff.br>
+Date:   Thu Dec 16 00:36:29 2021 -0300
+
+    add PackagesController and Views CRUD
+
+[33mcommit 26dd69adea5e235c39c8374db539803f71246c9f[m
+Author: juliana Mesquita <julianamariasousamesquita@id.uff.br>
+Date:   Thu Dec 16 00:30:15 2021 -0300
+
+    add DestiniesController and Views CRUD
+
+[33mcommit a8326e706671fe09fc6459597e758fca4f709b47[m
+Author: juliana Mesquita <julianamariasousamesquita@id.uff.br>
+Date:   Thu Dec 16 00:27:37 2021 -0300
+
+    add UsersController and Views CRUD
+
+[33mcommit 05fe83084a2968d4cfcc9d6d65b2f73c158f94ad[m
+Author: juliana Mesquita <julianamariasousamesquita@id.uff.br>
+Date:   Thu Dec 16 00:22:13 2021 -0300
+
+    add Migrations
+
+[33mcommit c87e022ef8c1419fa8c99c33811fd2ad77bcb82b[m
+Author: juliana Mesquita <julianamariasousamesquita@id.uff.br>
+Date:   Thu Dec 16 00:13:03 2021 -0300
+
+    alter name scheme
+
+[33mcommit 1ab5204f1d7732238ad3fc5b00ac0befb07183cf[m
+Author: juliana Mesquita <julianamariasousamesquita@id.uff.br>
+Date:   Thu Dec 16 00:09:49 2021 -0300
+
+    add context in Program.cs
+
+[33mcommit 153465e49d1a590f4e592ddc439eed60119c5a04[m
+Author: juliana Mesquita <julianamariasousamesquita@id.uff.br>
+Date:   Thu Dec 16 00:05:08 2021 -0300
+
+    add models Context
+
+[33mcommit 87a86353ebb48fd989af7509da582e71e9f5ff85[m
+Author: juliana Mesquita <julianamariasousamesquita@id.uff.br>
+Date:   Thu Dec 16 00:04:08 2021 -0300
+
+    add models Destiny
+
+[33mcommit 21ab7de90bc19304aa486034a71121b7412edb3e[m
+Author: juliana Mesquita <julianamariasousamesquita@id.uff.br>
+Date:   Thu Dec 16 00:00:11 2021 -0300
+
+    add models User
+
+[33mcommit 7873ad026f7d702de3d32431c80ea9d590b81609[m
+Author: juliana Mesquita <julianamariasousamesquita@id.uff.br>
+Date:   Wed Dec 15 23:58:31 2021 -0300
+
+    add models Package
+
+[33mcommit 2dbd1fed35b3a8a13e933e1d432029f7e80d793f[m
+Author: juliana Mesquita <julianamariasousamesquita@id.uff.br>
+Date:   Wed Dec 15 23:52:48 2021 -0300
+
+    Commit init
