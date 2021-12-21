@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mFLVY/XJluDiROclGhkEBWYrJijsYfisy2InPc5IsPw=",
+  "Hash": "pF9w5y8auHR041XlpOmf5KMgtOQ0DqU/lS7Jx9K1hlA=",
   "Source": "JuhMesquitaViagens",
   "BasePath": "_content/JuhMesquitaViagens",
   "Mode": "Default",
@@ -306,6 +306,23 @@
       "OriginalItemSpec": "wwwroot\\images\\layout\\contact.png"
     },
     {
+      "Identity": "C:\\Users\\Julia\\OneDrive\\Área de Trabalho\\workspace\\C#\\JuhMesquitaViagens\\JuhMesquitaViagens\\wwwroot\\images\\layout\\create destiny.png",
+      "SourceId": "JuhMesquitaViagens",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Julia\\OneDrive\\Área de Trabalho\\workspace\\C#\\JuhMesquitaViagens\\JuhMesquitaViagens\\wwwroot\\",
+      "BasePath": "_content/JuhMesquitaViagens",
+      "RelativePath": "images/layout/create destiny.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\layout\\create destiny.png"
+    },
+    {
       "Identity": "C:\\Users\\Julia\\OneDrive\\Área de Trabalho\\workspace\\C#\\JuhMesquitaViagens\\JuhMesquitaViagens\\wwwroot\\images\\layout\\create user.png",
       "SourceId": "JuhMesquitaViagens",
       "SourceType": "Discovered",
@@ -389,23 +406,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\layout\\Promotions.png"
-    },
-    {
-      "Identity": "C:\\Users\\Julia\\OneDrive\\Área de Trabalho\\workspace\\C#\\JuhMesquitaViagens\\JuhMesquitaViagens\\wwwroot\\images\\Modelo_conceitual_JulianaMariaSousaMesquita.drawio.png",
-      "SourceId": "JuhMesquitaViagens",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Julia\\OneDrive\\Área de Trabalho\\workspace\\C#\\JuhMesquitaViagens\\JuhMesquitaViagens\\wwwroot\\",
-      "BasePath": "_content/JuhMesquitaViagens",
-      "RelativePath": "images/Modelo_conceitual_JulianaMariaSousaMesquita.drawio.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Modelo_conceitual_JulianaMariaSousaMesquita.drawio.png"
     },
     {
       "Identity": "C:\\Users\\Julia\\OneDrive\\Área de Trabalho\\workspace\\C#\\JuhMesquitaViagens\\JuhMesquitaViagens\\wwwroot\\images\\slide00.png",
