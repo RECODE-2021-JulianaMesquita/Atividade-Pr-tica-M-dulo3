@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JuhMesquitaViagens</title>
+    <link rel="stylesheet" href="style.css" asp-append-version="true" />
+</head>
+<body>
+
+    <header>
+        <nav class="horizontal-menu">
+            <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+                <ul class="navbar-nav mr-auto">                    
+                    <li>
+                        <a  href="destiny.html">Destinos</a>
+                    </li>
+                    <li>
+                        <a  href="promotions.html">Promoções</a>
+                    </li>
+                    <li>
+                        <a href="index.html">
+                            <img src="JuhViagens.png" class="logo" alt="Logo"></a>
+                    </li>
+                    <li>
+                        <a  href="contact.html">Contato</a>
+                    </li>
+                    <li>
+                        <a  href="login.html">Login</a>
+                    </li>
+                </ul>             
+            </div>
+
+        </nav>
+    </header>
+    <br/><br/><br/>
+
+        <br/><br/><br/>
+        <div class="container ">
+
+        <form asp-action="\User\Login">
+            <label>
+                E-mail
+            </label>
+            <input type="email" id="email" placeholder="nome@example.com.br">
+            <br/><br/>
+            <label>
+                Senha
+            </label>
+            <input type="password" class="form-control" aria-describedby="Senha" asp-for="password" id="password" placeholder="4628A4s">
+            <br/>
+            <p> <input class="btn" type="submit" value="Entrar" /></p> 
+        </form>
+        <p><a href="recovery.html">Esqueceu sua senha?</a>  | <a  href="create.html">Cadastre-se</a></p>
+    </div>
+    
+    <!-- Importando rodape  -->
+    <object type="text/html" data="footer.html"></object>

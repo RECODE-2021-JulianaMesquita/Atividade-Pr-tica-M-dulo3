@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+/*  ------------------- ESTILOS GERAIS  ------------------- */
+html, body, figure, img, div, input, textarea, p, ul, li, a, main{
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Fredoka One', cursive;
+    color: #fff;
+}
+
+html, body { background: #333 url("https://codepen.io/images/classy_fabric.png"); }
+
+/*  ------------------- Cores padrão  ------------------- */
+:root{
+    --colorPrimary: #0072ff;
+    --colorSecondary: #00c6ff;
+    --colorThird: #00f260;
+}
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+a {
+    color: var(--colorSecondary);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--colorThird);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: var(--colorPrimary);
+    border-color: var(--colorSecondary);
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: var(--colorPrimary);
+    border-color: var(--colorSecondary);
+}
+
+.border-top {
+    border-top: 1px solid var(--colorThird);
+}
+
+.border-bottom {
+    border-bottom: 1px solid var(--colorThird);
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+/* Contatos */
+.contact-form {
+    background-color: linear-gradient(left, var(--colorPrimary), var(--colorSecondary));
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+
+    .contact-form .form-control {
+        border-radius: 1rem;
+    }
+
+.contact-image {
+    text-align: center;
+}
+
+    .contact-image img {
+        border-radius: 6rem;
+        width: 11%;
+        margin-top: -3%;
+        transform: rotate(29deg);
+    }
+
+.contact-form form {
+    padding: 14%;
+}
+
+    .contact-form form .row {
+        margin-bottom: -7%;
+    }
+
+.contact-form h3 {
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: var(--colorPrimary);
+}
+
+.contact-form .btn {
+    width: 100%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background-color: var(--colorPrimary);
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+input.btn[type="submit"]:hover {
+    background-color: var(--colorThird);
+    color: var(--colorPrimary);
+}
+
+.btn {    
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: var(--colorPrimary);
+    border: none;
+    cursor: pointer;
+    font-weight:bold;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.color {
+    background-color: linear-gradient(to right, #0072ff, #00f260);
+    font-size: 20px;
+    font-weight: 800;
+    align-items: center;
+    text-align: center;
+}
+
+.color2 {
+    background-color: linear-gradient(to right, #283c86, #45a247);
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 800;
+    align-items: center;
+    text-align: center;
+}
+
+/* menu */
+
+.horizontal-menu {
+    background-color: linear-gradient(to right, #0072ff, #00f260);
+	display: block;
+	height: 50px;
+	margin: 20px auto;
+	max-width: 1100px;
+
+}
+
+.horizontal-menu li {
+	float: left;
+	height: 100%;
+	width: 16.6666%;
+}
+
+.horizontal-menu li a {
+	display: block;
+	height: 100%;
+	line-height: 50px;
+	text-align: center;
+}
+
+.horizontal-menu li:not(.active):hover a{
+	color: var(--colorThird);
+	background-position: 100% 0;
+}
+
+/* imagens */
+img {
+    border-radius: 20%;
+    width: 80%;
+}
+
+/*flex box*/
+.container {
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    gap: 10px 20px;
+  }
+
+
+  object {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+/* SLIDE */
+
+
+.slides {
+    padding: 0;
+    width: 609px;
+    height: 420px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.slides * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.slides input { display: none; }
+
+.slide-container { display: block; }
+
+.slide {
+    top: 0;
+    opacity: 0;
+    width: 609px;
+    height: 420px;
+    display: block;
+    position: absolute;
+
+    transform: scale(0);
+
+    transition: all .7s ease-in-out;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav label {
+    width: 200px;
+    height: 100%;
+    display: none;
+    position: absolute;
+
+	  opacity: 0;
+    z-index: 9;
+    cursor: pointer;
+
+    transition: opacity .2s;
+
+    color: #FFF;
+    font-size: 156pt;
+    text-align: center;
+    line-height: 380px;
+    font-family: "Varela Round", sans-serif;
+    background-color: rgba(255, 255, 255, .3);
+    text-shadow: 0px 0px 15px rgb(119, 119, 119);
+}
+
+.slide:hover + .nav label { opacity: 0.5; }
+
+.nav label:hover { opacity: 1; }
+
+.nav .next { right: 0; }
+
+input:checked + .slide-container  .slide {
+    opacity: 1;
+
+    transform: scale(1);
+
+    transition: opacity 1s ease-in-out;
+}
+
+input:checked + .slide-container .nav label { display: block; }
+
+.nav-dots {
+	width: 100%;
+	bottom: 9px;
+	height: 11px;
+	display: block;
+	position: absolute;
+	text-align: center;
+}
+
+.nav-dots .nav-dot {
+	top: -5px;
+	width: 11px;
+	height: 11px;
+	margin: 0 4px;
+	position: relative;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-dots .nav-dot:hover {
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+input#img-1:checked ~ .nav-dots label#img-dot-1,
+input#img-2:checked ~ .nav-dots label#img-dot-2,
+input#img-3:checked ~ .nav-dots label#img-dot-3,
+input#img-4:checked ~ .nav-dots label#img-dot-4,
+input#img-5:checked ~ .nav-dots label#img-dot-5,
+input#img-6:checked ~ .nav-dots label#img-dot-6 {
+	background: rgba(0, 0, 0, 0.8);
+}
